@@ -84,8 +84,6 @@ public class MenuItem {
         this.freeDelivery = freeDelivery;
     }
 
-   
-
     @Override
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
