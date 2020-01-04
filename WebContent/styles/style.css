@@ -1,0 +1,150 @@
+/*it is for all page header tag*/
+header {
+    top: 0%;
+    background-color: #3e0999;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 30px;
+    height: 7%;
+}
+/*it is for all page truyum*/
+.truyum {
+    top: 0%;
+    position: fixed;
+    font-size: 30px;
+    color: #fcfafa;
+    left: 1%;
+}
+/*it is for all page menu link*/
+.menu {
+    top: 2%;
+    position: fixed;
+    left: 85%;
+    font-size: 30px;
+    height: 4%;
+    color: #fcfafa;
+}
+/*it is for all page cart link*/
+.cart {
+    top: 2%;
+    position: fixed;
+    left: 90%;
+    font-size: 30px;
+    height: 4%;
+    color: #fcfafa;
+}
+/*it is for img tag*/
+img {
+    top: 1%;
+    height: 5%;
+    position: fixed;
+    left: 7%;
+}
+/*it is for all page footer tag*/
+footer {
+    bottom: 0%;
+    background-color: #949c9b;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 20px;
+    height: 7%
+}
+/*it is for all page tabel tag*/
+table {
+    height: 5%;
+    position: fixed;
+    left: 7%;
+    top: 25%;
+    font-size: 30px;
+    min-width:80%;
+    height: 5%;
+}
+/*it is for cart notification.html page*/
+.menu-items {
+    color: #0f0f0f;
+    top:12%;
+    position: fixed;
+    left: 7%;
+}
+/*it is for Cart notification.html page*/
+.removed-from-cart {
+    color: #10c242;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    font-size: 30px;
+    height: 5%;
+}
+/*it is for cart empty.html page*/
+.no-items-in-cart {
+    color: #9c9a95;
+    position: fixed;
+    top:20%;
+    left: 7%;
+    font-size: 30px;
+    height: 5%;
+}
+/*it is for edit-menu-item-status.html page*/
+.Edit-menu-item-status {
+    color: #0d0c0c;
+    position: fixed;
+    top: 15%;
+    left: 7%;
+    font-size:30px;
+    height: 5%;
+}
+/*it is for edit-menu-item-status.html page*/
+.saved-successfully {
+    color: #13b04d;
+    position: fixed;
+    top: 24%;
+    left: 7%;
+    font-size: 20px;
+    height: 5%;
+}
+/*it is for menu-item-list-customer.html page*/
+.Item-added-to-class-successfully {
+    color: #13b04d;
+    position: fixed;
+    top: 17%;
+    left:19%;
+    font-size:33px;
+    height: 5%;
+}
+/*it is for save button edit menu item.html page*/
+.button {
+    background-color: #190c91;
+    position: fixed;
+    left: 7%;
+    font-size: 30px;
+    height: 5%;
+    width: 7%;
+    color: #f3f2f7;
+    border: none;
+}
+/*it is for class notification.html page*/
+.notification {
+    min-width: 50%;
+}
+/*menu item list customer.html page*/
+.list-customer {
+    min-width: 50%;
+}
+
+/*it is for edit menu item.html page*/
+.menuedit {
+    min-width: 50%;
+}
+/*menu item list customer.html page*/
+.costomer {
+    min-width: 70%;
+}
+.right{
+		text-align:right;
+}
+/*this is for cart.html*/
+.cart2{
+	min-width:40%;
+}
