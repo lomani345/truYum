@@ -86,7 +86,7 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
 
         return String.format("%-10s%-18s%-15s%-10s%-18s%-15s%-15s\n", id, name, price,
                 active == true ? "Yes" : "No", sdf.format(dateOfLaunch), category,
