@@ -88,7 +88,7 @@ public class MenuItem {
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
 
-        return String.format("%-10s%-18s%-15s%-10s%-18s%-15s%-15s\n", id, name, price,
+        return String.format("%-10s%-20s%-15s%-10s%-18s%-25s%-15s\n", id, name, price,
                 active == true ? "Yes" : "No", sdf.format(dateOfLaunch), category,
                 freeDelivery == true ? "Yes" : "No");
 
