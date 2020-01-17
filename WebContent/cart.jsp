@@ -22,7 +22,7 @@
         <col width=350>
         <col width=200>
         <col width=200>
-        <col width=250>
+        <col width=200>
         <tr>
             <th align="left">Name</th>
             <th align="left">Free Delivery</th>
@@ -33,7 +33,7 @@
             <c:forEach items="${menuItem}" var="menuItem">
                 <tr>
                     <td>${menuItem.getName()}</td>
-                    <td align="center"><c:choose>
+                    <td align="left"><c:choose>
                             <c:when test="${menuItem.isFreeDelivery()==true}">Yes</c:when>
                             <c:otherwise>No</c:otherwise>
                         </c:choose></td>
@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <td></td>
-            <th align="center">Total</th>
+            <th align="left">Total</th>
             <th align="right">Rs.${cart.getTotal() }</th>
         </tr>
     </table>
