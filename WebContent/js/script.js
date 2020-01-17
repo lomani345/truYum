@@ -1,8 +1,8 @@
-function validate() {
-    var foodname = document.forms["food"]["title"].value;
-    var price = document.forms["food"]["price"].value;
-    var dateofLaunch = document.forms["food"]["dateoflaunch"].value;
-    var category = document.forms["food"]["category"].value;
+function validateMenuItemForm() {
+    var foodname = document.forms["menuItemForm"]["name"].value;
+    var price = document.forms["menuItemForm"]["price"].value;
+    var dateOfLaunch = document.forms["menuItemForm"]["dateoflaunch"].value;
+    var category = document.forms["menuItemForm"]["category"].value;
     var nameregexp = (/^.*[0-9].*$/);
 
     if (foodname == "") {
@@ -21,7 +21,7 @@ function validate() {
         alert("Price has to be a number");
         return false;
     }
-    if (dateofLaunch == "") {
+    if (dateOfLaunch == "") {
         alert("Date Launch is required");
         return false;
     }
