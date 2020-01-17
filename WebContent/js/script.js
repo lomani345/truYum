@@ -1,15 +1,15 @@
 function validateMenuItemForm() {
-    var foodname = document.forms["menuItemForm"]["name"].value;
+    var foodName = document.forms["menuItemForm"]["name"].value;
     var price = document.forms["menuItemForm"]["price"].value;
     var dateOfLaunch = document.forms["menuItemForm"]["dateoflaunch"].value;
     var category = document.forms["menuItemForm"]["category"].value;
     var nameregexp = (/^.*[0-9].*$/);
 
-    if (foodname == "") {
+    if (foodName == "") {
         alert("Title is required");
         return false;
     }
-    if (foodname.length < 2 || foodname.length > 65) {
+    if (foodName.length < 2 || foodName.length > 65) {
         alert("Title should have 2 to 65 characters");
         return false;
     }
