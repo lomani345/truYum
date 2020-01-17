@@ -22,7 +22,7 @@ function validateMenuItemForm() {
         return false;
     }
     if (dateOfLaunch == "") {
-        alert("Date Launch is required");
+        alert("Date of Launch is required");
         return false;
     }
     if (category == "") {
