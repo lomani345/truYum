@@ -13,19 +13,17 @@ import com.cognizant.truyum.dao.MenuItemDao;
 import com.cognizant.truyum.dao.MenuItemDaoCollectionImpl;
 import com.cognizant.truyum.model.MenuItem;
 
-
 @WebServlet("/ShowMenuItemListAdmin")
 public class ShowMenuItemListAdminServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-       
-   
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      MenuItemDao menuItem=new MenuItemDaoCollectionImpl();
-      List<MenuItem>menuItemList=menuItem.getMenuItemListAdmin();
-      request.setAttribute("menuItem",menuItemList);
-      request.getRequestDispatcher("menu-item-list-admin.jsp").forward(request, response);
+    private static final long serialVersionUID = 1L;
 
-	    
-	}
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        MenuItemDao menuItem = new MenuItemDaoCollectionImpl();
+        List<MenuItem> menuItemList = menuItem.getMenuItemListAdmin();
+        request.setAttribute("menuItem", menuItemList);
+        request.getRequestDispatcher("menu-item-list-admin.jsp").forward(request, response);
+
+    }
 
 }

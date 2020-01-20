@@ -47,6 +47,7 @@ footer {
     min-width: 100%;
     position: fixed;
     left: 0%;
+    font-size:22px;
     height: 7%
 }
 /*it is for all page tabel tag*/
@@ -108,7 +109,7 @@ table {
     position: fixed;
     top: 20%;
     left:19%;
-    font-size:25px;
+    font-size:28px;
     height: 5%;
 }
 /*it is for save button edit menu item.html page*/

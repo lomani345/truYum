@@ -15,22 +15,22 @@ import com.cognizant.truyum.dao.MenuItemDao;
 import com.cognizant.truyum.dao.MenuItemDaoCollectionImpl;
 import com.cognizant.truyum.model.MenuItem;
 
-
 @WebServlet("/AddToCart")
 public class AddToCartServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-    
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private static final long serialVersionUID = 1L;
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         long menuItemId = Long.parseLong(request.getParameter("menuItemId"));
-		long userId=1L;
-		CartDao cartDao=new CartDaoCollectionImpl();
-		cartDao.addCartItem(userId, menuItemId);
-		MenuItemDao menuItemDao=new MenuItemDaoCollectionImpl();
-		List<MenuItem>menuItemList=menuItemDao.getMenuItemListCustomer();
-		request.setAttribute("addCartStatus", true);
-		request.setAttribute("menuItem", menuItemList);
-		request.getRequestDispatcher("menu-item-list-customer.jsp").forward(request,response);
-        
-	}
+        long userId = 1L;
+        CartDao cartDao = new CartDaoCollectionImpl();
+        cartDao.addCartItem(userId, menuItemId);
+        MenuItemDao menuItemDao = new MenuItemDaoCollectionImpl();
+        List<MenuItem> menuItemList = menuItemDao.getMenuItemListCustomer();
+        request.setAttribute("addCartStatus", true);
+        request.setAttribute("menuItem", menuItemList);
+        request.getRequestDispatcher("menu-item-list-customer.jsp").forward(request, response);
+
+    }
 
 }

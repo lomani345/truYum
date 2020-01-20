@@ -14,8 +14,8 @@
     </nav> </header>
     <h1 class="menu-items">Cart</h1>
     <p class="no-items-in-cart">
-        No items in cart.Use'Add to Cart' option in <a href="ShowMenuItemListCustomer">Menu Item
-            List.</a>
+        <b> No items in cart.Use'Add to Cart' option in <a href="ShowMenuItemListCustomer">Menu
+                Item List.</a></b>
     </p>
     <footer>
     <h4>Copyright&copy;2019</h4>

@@ -16,7 +16,7 @@
     </nav> </header>
     <h1 class="menu-items">Menu Items</h1>
     <c:if test="${addCartStatus==true }">
-        <span class="Item-added-to-cart-successfully">Item Added Into Cart Successfully</span>
+        <span class="Item-added-to-cart-successfully"><b>Item added to Cart Successfully</b></span>
     </c:if>
     <table class="customer">
         <col width=200>
