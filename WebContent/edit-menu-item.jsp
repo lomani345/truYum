@@ -57,10 +57,10 @@
                 <td><select name="category">
 
                         <option value="${menuItem.getCategory()}">${menuItem.getCategory()}</option>
-                        <option>Starters</option>
-                        <option>Main Course</option>
-                        <option>Desert</option>
-                        <option>Drinks</option>
+                        <option value="Starters">Starters</option>
+                        <option value="Main Course">Main Course</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Drinks">Drinks</option>
                 </select></td>
             </tr>
             <tr>
